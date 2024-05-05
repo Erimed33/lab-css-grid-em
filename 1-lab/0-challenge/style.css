@@ -1,0 +1,129 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+
+.main {
+    position: absolute;
+    margin: 20px;
+    width: 60%;
+    height: 75%;
+    display: grid;
+    top: 10%;
+    left: 10%;
+    grid-template-columns: 10% 30% 15% 70%;
+    grid-template-rows: 20% 10% 45% 15%;
+}
+
+.item {
+    border: 10px solid black;
+    border-left: none;
+    border-right: none;
+}
+.item1{
+    border: 6px solid black;
+    border-right: 5px solid;
+    border-top: 15px solid;
+    border-left: none;
+    border-bottom: 10px solid;
+}
+
+.item2 {
+    border: 15px solid black;
+    border-bottom: 10px solid black;
+    border-left: 10px solid;
+    border-right: 10px;
+    background: #EE0C12;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.item3 {
+    border-top: 15px solid black;
+    border-bottom: 10px solid black;
+    border-left: 15px solid black;
+    border-right: none;
+
+}
+
+.item4 {
+    border: 6px solid black;
+    border-right: 5px solid;
+    border-top: 5px solid;
+    border-left: none;
+}
+.item5 {
+    border: 6px solid black;
+    border-right: 5px solid black; 
+    
+    border-left: 10px solid black; 
+}
+
+.item6 {
+    border: 5px solid black;
+    border-right: 5px solid black; 
+  
+    border-left: 10px solid black;
+}
+
+.item7 {
+    border: 6px solid black;
+    border-right: none;
+    border-top: 5px solid;
+    border-left: 10px solid black;
+    background: #EE0C12;
+}
+
+.item8 {
+    border: 10px solid black;
+    border-left: none;
+    border-right: 5px solid;
+    border-bottom: 10px solid;
+    background: #0A29E4;
+}
+
+.item9 {
+    border: 10px solid black;
+    border-right: 5px solid;
+    
+}
+
+.item10{
+    border-top: 10px solid;
+    border-left: 10px solid;
+    border-bottom: 10px solid;
+    border-right: 5px solid;
+    background: #F5D007;
+
+}
+.item11{
+    border: 10px solid black;
+    border-left: 10px solid black;
+    border-right: none;
+ 
+}
+
+.item12{
+    border: 10px solid black;
+    border-right: 5px solid;
+    border-bottom: 15px solid;
+    border-top: 5px solid;
+    border-left: none;
+
+}
+ .item13 {
+    border: 10px solid black;
+    border-top: 5px solid;
+    border-right: 5px solid;
+    border-bottom: 15px solid;
+    grid-column: 2/4;
+ }
+.item14 {
+    border: 10px solid black;
+    border-right: none;
+    border-top: 5px solid;
+    border-bottom: 15px solid;
+    background: #0A29E4;
+    grid-column: 4/5;
+}
